@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "678156914593",
+    "firebase_url": "https://banmypham-414e9-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "banmypham-414e9",
+    "storage_bucket": "banmypham-414e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678156914593:android:1febd1450493051c98c5e0",
+        "android_client_info": {
+          "package_name": "com.project2.banhangmypham"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH16oIh_567YClBTi1XSdrHw7Rfwt3kIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

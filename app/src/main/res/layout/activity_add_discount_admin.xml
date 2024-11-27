@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".admin.discount_admin_acitivity.AddAndEditDiscountAdminActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_arrow_back_24" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/iv_back"
+            android:text="Thêm mới khuyến mãi"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="Tiêu đề(*)" />
+
+    <EditText
+        android:id="@+id/edt_title_discount"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="10dp"
+        android:autofillHints=""
+        android:background="@drawable/bg_edittext_common"
+        android:inputType="text"
+        android:paddingStart="10dp"
+        tools:ignore="Autofill" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:text="Nội dung(*)" />
+
+    <EditText
+        android:id="@+id/edt_content_discount"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/bg_edittext_common"
+        android:inputType="text"
+        android:paddingStart="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:text="Giá trị" />
+
+    <EditText
+        android:id="@+id/edt_value_discount"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/bg_edittext_common"
+        android:inputType="number"
+        android:paddingStart="10dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:text="Số lượng" />
+
+    <EditText
+        android:id="@+id/edt_number_discount"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/bg_edittext_common"
+        android:inputType="number"
+        android:paddingStart="10dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:text="Giá trị được khuyển mãi" />
+
+    <EditText
+        android:id="@+id/edt_value_number_discount"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/bg_edittext_common"
+        android:inputType="number"
+        android:paddingStart="10dp" />
+    <Button
+        android:id="@+id/btn_add_discount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_button_common"
+        android:text="Thêm"
+        android:textColor="@color/colorWhite" />
+</LinearLayout>

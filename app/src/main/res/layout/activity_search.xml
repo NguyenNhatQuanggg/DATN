@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/searchActivityButtonGoBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:minHeight="20dp"
+            android:minWidth="20dp"
+            android:background="@color/colorPrimary"
+            android:src="@drawable/ic_arrow_back"
+            tools:ignore="ContentDescription" />
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="match_parent"/>
+
+        <androidx.appcompat.widget.SearchView
+            android:layout_weight="1"
+            android:id="@+id/searchActivitySearchView"
+            android:drawableStart="@drawable/ic_search"
+            android:minWidth="100dp"
+            android:maxWidth="240dp"
+            android:textSize="8sp"
+            android:textColor="@color/colorTextBlack"
+            android:background="@drawable/background_rounded_corner"
+            android:hint="Tìm kiem"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            tools:ignore="SmallSp" />
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="match_parent"/>
+        <ImageButton
+            android:id="@+id/searchActivityButtonCart"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@color/colorPrimary"
+            android:src="@drawable/ic_cart_baseline"
+            tools:ignore="ContentDescription" />
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="match_parent"/>
+
+        <ImageButton
+            android:id="@+id/searchActivityButtonFilter"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@color/colorPrimary"
+            android:src="@drawable/ic_filter"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tv_error"
+            android:textSize="17sp"
+            android:textAlignment="center"
+            android:textColor="@color/colorTextBlack"
+            android:text="Không tìm thấy sản phẩm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recyclerView_search"/>
+
+
+    </FrameLayout>
+</LinearLayout>

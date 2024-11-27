@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginEnd="10dp"
+        android:id="@+id/tv_message"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_sender_message"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:text="asdfdsfsafafsdsdsssddddsdsdfsdfsdfdfafdsafdfvuong"
+        android:textAlignment="textStart"
+        android:textColor="@color/colorWhite"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:padding="5dp"
+        android:text="Da xem"
+        android:textSize="12sp" />
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF9800</color>
+    <color name="colorPrimaryDark">#FF9800</color>
+    <color name="colorBlack">#FF000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGray">#EEEEEE</color>
+    <color name="colorInfo">#E8DCDC</color>
+    <color name="colorGray_100">#B8B3B3</color>
+    <color name="colorGray_message">#E1E1E1</color>
+    <color name="colorOrange">#FFCC80</color>
+    <color name="colorYellow">#FFEB3B</color>
+    <color name="colorRed">#D50000</color>
+    <color name="colorBlue">#4054C5</color>
+    <color name="colorBlue_100">#7383F3</color>
+    <color name="colorBlueSelected">#0B8D81</color>
+    <color name="colorGreenState">#8DF31C</color>
+    <color name="colorTransparent">#00ff0000</color>
+    <color name="colorTextBlack">#FF000000</color>
+    <color name="colorBackground">@color/colorWhite</color>
+    <color name="increase_decrease_lib_active">#FF7E2E</color>
+    <color name="increase_decrease_lib_inactive">#B3B3B3</color>
+    <color name="bg_total_revenue">#4A964646</color>
+</resources>

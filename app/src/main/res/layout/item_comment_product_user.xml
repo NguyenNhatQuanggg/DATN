@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_name_user"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Nguyen Van A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="20dp"
+            android:textSize="17sp"
+            android:id="@+id/tv_rating"
+            android:text="4.3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="5dp"
+            android:src="@drawable/baseline_star_rate_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_message"
+        android:text="sdfdfsdfsddddddddddddddddddddddddddddddddddddddddddddsdfsdfsdfs"
+        android:textSize="17sp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="16sp"
+        android:text="10/10/2025"
+        android:layout_gravity="end"
+        android:id="@+id/tv_time_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_marginTop="5dp"
+        android:background="@color/colorGray_100"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+</LinearLayout>
